@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/example/myapplication/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/myapplication/MainActivity.java	(revision 66c56c594cc48f5a6de198e956f6bd7b6f564b90)
++++ app/src/main/java/com/example/myapplication/MainActivity.java	(date 1609077288032)
+@@ -23,7 +23,7 @@
+         Toolbar toolbar = findViewById(R.id.toolbar);
+         setSupportActionBar(toolbar);
+ 
+-        Toast.makeText(this,"hello",Toast.LENGTH_LONG).show();
++//        Toast.makeText(this,"hello",Toast.LENGTH_LONG).show();
+ 
+         FloatingActionButton fab = findViewById(R.id.fab);
+         fab.setOnClickListener(new View.OnClickListener() {
